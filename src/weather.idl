@@ -1,0 +1,5 @@
+module weather {
+    interface TempGenerator {
+        double generate(in string s);
+    };
+};
